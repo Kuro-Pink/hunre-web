@@ -4,6 +4,7 @@ import { Joblist } from './Two/Joblist';
 import { ReviewForm } from './Four/ReviewForm';
 import { UsersList } from './Five/UsersList';
 import { WebHunre } from './Hunre/webHunre';
+import { HunreLib } from './Hunre/hunreLib';
 function App() {
     return (
         <div className="flex w-full items-center justify-center bg-[#E6EFFA]">
@@ -12,7 +13,8 @@ function App() {
             {/* <Collections /> */}
             {/* <ReviewForm /> */}
             {/* <UsersList /> */}
-            <WebHunre />
+            {/* <WebHunre /> */}
+            <HunreLib />
         </div>
     );
 }
